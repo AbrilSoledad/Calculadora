@@ -93,7 +93,12 @@ public class CalculadoraDos {
 	}
 
 	public boolean esPositivo(double resultado) {
-		return resultado > 0;
+		boolean positivo = false;
+
+		if(resultado > 0){
+			positivo = true;
+		}
+		return positivo;
 	}
 
 	public double factorial(int num) {

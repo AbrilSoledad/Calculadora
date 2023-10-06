@@ -113,7 +113,19 @@ public class CalculadoraDos {
 	}
 
 	
-	
+	public boolean esPrimo (int num){
+
+		boolean primo = false;
+		
+        for(int i = 1; i < num; i++) {
+		if (num % i == 0) {
+		primo = false;	
+		} else{
+			return primo = true;
+		}
+	  }
+		return primo;
+	}
 	
 	
 	

@@ -118,11 +118,8 @@ public class CalculadoraDos {
 		boolean primo = false;
 		
         for(int i = 1; i < num; i++) {
-		if (num % i == 0) {
-		primo = false;	
-		} else{
-			return primo = true;
-		}
+		if (num % i != 0) {
+		primo = true;	
 	  }
 		return primo;
 	}
